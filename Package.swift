@@ -1,4 +1,4 @@
-// swift-tools-version:5.0
+// swift-tools-version:5.10
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 
 /**
@@ -30,7 +30,7 @@ let package = Package(
     dependencies: [
         // Dependencies declare other packages that this package depends on.
         // .package(url: /* package url */, from: "1.0.0"),
-        .package(url: "https://github.com/Kitura/Kitura-net.git", from: "2.4.200"),
+        .package(url: "https://github.com/StyleShoots/Kitura-net.git", branch: "master"),
         .package(url: "https://github.com/Kitura/BlueCryptor.git", from: "2.0.0"),
 
     ],
